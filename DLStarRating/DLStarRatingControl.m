@@ -192,7 +192,7 @@
     if (isFractionalRatingEnabled) {
         return (float)(currentIdx+1)/kNumberOfFractions;
     }
-	return (NSUInteger)currentIdx+1;
+	return (float)currentIdx+1;
 }
 
 
